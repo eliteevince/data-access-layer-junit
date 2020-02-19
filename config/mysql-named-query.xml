@@ -1,0 +1,5 @@
+<?xml version='1.0'?>
+<querylist>
+ <namedquery name='table_1'>SELECT * FROM table_1 where id=1;</namedquery>
+ <namedquery name='table_2'>SELECT * FROM table_1 where id=3;</namedquery>
+</querylist>
