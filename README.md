@@ -5,24 +5,24 @@
 - JDK > v1.7
 
 ## Introduction
-DAL Persistence layer is JAVA based program. to handle many persistence layer oprations like table creation, updation, record insertion, record deletion, record updation, read record, generate next sequence number etc.
+DAL Persistence layer is JAVA based program. to handle many persistence layer operations like table creation, updation, record insertion, record deletion, record updation, read record, generate next sequence number etc.
 In this program we are using MySQL tool as database structure.
 
 ## Features
-- Create table dynamically
-- Update table dynamically
-- Insert data into table dynamically
-- Update data into table dynamically
-- Read data from table dynamically
-- Delete data from table dynamically
+- Create table dynamic
+- Update table dynamic
+- Insert data into table dynamic
+- Update data into table dynamic
+- Read data from table dynamic
+- Delete data from table dynamic
 - Fetch next sequence number genrator
 
-## Step to setup
+## Step to setup DAL program
 - Download DAL Persistence layer program from repository.
 - Extract downloaded file and import into eclips or netbeans anything what you like.
 - After successfully imported project, you may found two packages com.radix.dal and com.radix.dal.mysql in which com.radix.dal package containes all utility files and persistence factory and com.radix.dal.mysql package is containes mysql database connectivity and Persistence layer.
 - To test this program you need to configure mysql connector library. that you may found mysql-connector-java-8.0.18.jar in root folder of our repository. bind this jar with our program.
-- Now need to change mysql configuration like path, username and password in MySQLPersistenceManager constructor and create database according to your convenience.
+- Now need to change mysql configuration like path, username and password in MySQLPersistenceManager constructor and create database according to your convenience (we have created database with name radix).
 - After all configuration is done Dal Persistence Layer is ready to test.
 
 ## Test program
